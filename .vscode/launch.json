@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "pythonPath": "/usr/bin/python",
+            "request": "launch",
+            "program": "${workspaceFolder}/web_project/manage.py",
+            "args": [
+                "runserver",
+                "--noreload"
+            ],
+            "django": true
+        }
+    ]
+},
