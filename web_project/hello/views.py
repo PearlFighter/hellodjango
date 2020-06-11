@@ -13,7 +13,7 @@ from datetime import datetime
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Hello, Django!")
+    return HttpResponse("Hello, Django!  Yes sir!")
 
 def hello_there(request, name):
     now = datetime.now()
